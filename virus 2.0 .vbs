@@ -36,7 +36,7 @@ Do
     
     ' Change system volume to max
     For i = 1 To 50
-        wshShell.SendKeys(chr(&hAF)) ' Volume up key
+        wshShell.SendKeys(chr(&hAF)) 
         WScript.Sleep 10
     Next
 
