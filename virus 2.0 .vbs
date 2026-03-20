@@ -55,10 +55,9 @@ Do
 
     WScript.Sleep 6500
 
-    ' More message boxes
+   
     MsgBox "SYSTEM ERROR 0x80004005", vbCritical, "Microsoft Support"
     MsgBox "You clicked OK. That was a mistake.", vbOKOnly + vbCritical, "Oops"
 
-    ' Wait and repeat
     WScript.Sleep 3000
 
